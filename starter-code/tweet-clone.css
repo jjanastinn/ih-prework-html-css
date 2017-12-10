@@ -17,11 +17,8 @@ p {
   padding: 15px;
 }
 
-.profilepic {
-}
-
 .account {
-  float: left;
+  display: inline-block;
   font-weight: bold;
 }
 
