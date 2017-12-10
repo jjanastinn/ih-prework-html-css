@@ -34,6 +34,10 @@ p {
   color: rgb(104, 109, 129);
 }
 
+.text {
+  margin-top:10px;
+}
+
 .date {
   color: rgb(101, 116, 127);
   margin-bottom: 10px;
