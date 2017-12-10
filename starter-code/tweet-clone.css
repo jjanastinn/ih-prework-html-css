@@ -1,7 +1,7 @@
 
 body {
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 25px;
   background-color: rgb(244, 248, 249);
 }
 
@@ -10,28 +10,38 @@ p {
 }
 
 #tweet {
-  width: 40%;
+  width: 80%;
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(225, 232, 237);
   border-radius: 10px;
-  padding: 15px;
+  padding: 25px;
 }
 
 .account {
   display: inline-block;
   font-weight: bold;
+  vertical-align: top;
+  margin-left: 10px;
 }
 
 .follow {
   float: right;
-  border: 1px solid rgb(85, 172, 238);       border-radius: 5px;
-  color: rgb(85, 172, 238); 
+  border: 1px solid rgb(85, 172, 238);
+  border-radius: 5px;
+  color: rgb(85, 172, 238);
   font-weight: bold;
-  padding: 5px;
+  padding: 10px 20px;
+}
+
+.verticalalign {
+  vertical-align: middle;
 }
 
 .useraccount {
   color: rgb(104, 109, 129);
+  display: flex;
+  margin-top: 7px;
+  font-weight: lighter;
 }
 
 .text {
@@ -40,15 +50,16 @@ p {
 
 .date {
   color: rgb(101, 116, 127);
-  margin-bottom: 10px;
-  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .numbers {
   color: rgb(105, 120, 130);
+  vertical-align: middle;
 }
 
 .actions {
-  margin-left: 10px;
+  margin-left: 30px;
+  vertical-align: middle;
 }
-
